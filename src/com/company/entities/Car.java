@@ -27,7 +27,7 @@ public class Car {
     @Override
     public String toString() {
         return "Car{" +
-                "owner=" + owner +
+                "owner=" + owner.getName() +
                 ", brand=" + brand.getName() +
                 ", power=" + power +
                 '}';
